@@ -109,8 +109,8 @@ public class AngelicArrow implements Listener {
         for (Entity entity : nearbyEntities) {
             if (entity instanceof LivingEntity && entity != player) {
                 LivingEntity livingEntity = (LivingEntity) entity;
-                livingEntity.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 10 * 20, 1), true); // Efek Glow selama 10 detik
-                livingEntity.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 10 * 20, 1), true); // Efek Blind selama 10 detik
+                livingEntity.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 10 * 20, 1), true); 
+                livingEntity.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 10 * 20, 1), true);
             }
         }
     }
