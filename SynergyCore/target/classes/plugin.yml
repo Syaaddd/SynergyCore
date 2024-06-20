@@ -1,0 +1,4 @@
+name: SynergyCore
+version: '1.0'
+main: org.cnpl.synergycore.SynergyCore
+api-version: '1.20'
