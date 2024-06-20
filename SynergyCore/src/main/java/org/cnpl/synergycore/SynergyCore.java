@@ -76,8 +76,7 @@ public class SynergyCore extends JavaPlugin implements Listener {
 
         location.getWorld().playSound(location, Sound.ENTITY_WITHER_DEATH, 1.0f, 1.0f);
 
-        new PhantomRequiemTask(this, player, location).runTaskTimer(this, 0, 40); // Jalankan setiap 2 detik
-
+        new PhantomRequiemTask(this, player, location).runTaskTimer(this, 0, 40); 
         new CooldownHandler(this, player).runTaskLater(this, cooldown / 50);
     }
 
