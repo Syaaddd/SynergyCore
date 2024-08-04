@@ -1,0 +1,10 @@
+name: SynergyCore
+version: '1.0'
+main: org.cnpl.synergycore.SynergyCore
+api-version: '1.20'
+commands:
+  leviathanspawn:
+    description: Broadcast a Leviathan spawn message
+    usage: /leviathanspawn
+    permission: leviathanspawn.use
+    permission-message: You do not have permission to use this command.
